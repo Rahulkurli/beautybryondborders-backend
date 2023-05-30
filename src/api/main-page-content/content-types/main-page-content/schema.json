@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "main_page_contents",
+  "info": {
+    "singularName": "main-page-content",
+    "pluralName": "main-page-contents",
+    "displayName": "main_page_content",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "contact_number": {
+      "type": "biginteger"
+    },
+    "email_address": {
+      "type": "email"
+    },
+    "specialist_count": {
+      "type": "biginteger"
+    },
+    "happy_user_count": {
+      "type": "biginteger"
+    },
+    "services": {
+      "type": "biginteger"
+    },
+    "testimonial_1": {
+      "type": "text"
+    },
+    "testimonial_2": {
+      "type": "text"
+    },
+    "testimonial_3": {
+      "type": "text"
+    },
+    "testimonial_reviewer_1": {
+      "type": "string"
+    },
+    "testimonial_reviewer_2": {
+      "type": "string"
+    },
+    "testimonial_reviewer_3": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

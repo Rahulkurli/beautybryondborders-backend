@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "price_lists",
+  "info": {
+    "singularName": "price-list",
+    "pluralName": "price-lists",
+    "displayName": "price_list",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "bridal_makeup": {
+      "type": "biginteger"
+    },
+    "acrylic_nail": {
+      "type": "biginteger"
+    },
+    "engagement_makeup": {
+      "type": "biginteger"
+    },
+    "reception_makeup": {
+      "type": "biginteger"
+    },
+    "facial": {
+      "type": "biginteger"
+    },
+    "hair_care": {
+      "type": "biginteger"
+    },
+    "nail_extention": {
+      "type": "biginteger"
+    },
+    "manicure_padicure": {
+      "type": "biginteger"
+    },
+    "party_makeup": {
+      "type": "biginteger"
+    }
+  }
+}

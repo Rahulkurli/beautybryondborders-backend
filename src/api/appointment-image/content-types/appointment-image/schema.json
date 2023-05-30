@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "appointment_images",
+  "info": {
+    "singularName": "appointment-image",
+    "pluralName": "appointment-images",
+    "displayName": "appointment_image",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
